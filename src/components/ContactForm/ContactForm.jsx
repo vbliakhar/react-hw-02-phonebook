@@ -27,7 +27,6 @@ class ContactForm extends Component {
   render() {
     return (
       <form onSubmit={this.handleSubmit} className="ContactForm">
-        <h1>Petro</h1>
         <label>
           Name
           <input
