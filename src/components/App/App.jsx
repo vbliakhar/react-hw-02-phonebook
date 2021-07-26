@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import shortid from 'shortid';
 import './App.scss';
-import ContactList from './components/ContactList';
-import ContactForm from './components/ContactForm';
-import Filter from './components/Filter';
+import ContactList from '../ContactList';
+import ContactForm from '../ContactForm';
+import Filter from '../Filter';
 class App extends Component {
   state = {
     contacts: [
